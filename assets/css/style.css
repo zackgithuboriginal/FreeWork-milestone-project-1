@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap");
+
+/* General Styling */
+html {
+    font-family: 'Poppins', sans-serif;
+    color: #3E4C5E;
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+}
+
+/* Colors */
+.bg-color-lightblue{
+    background-color:rgba(90, 172, 190, .65); 
+}
+
+.font-color-light {
+    color: #ffffff;
+}
+
+/* Navbar Styling */
+
+.collapse .navbar-collapse {
+    justify-content: start;
+}
+
+.nav-link, 
+.dropdown-item,
+.dropdown-toggle{
+    color: #ffffff;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.navbar button.navbar-toggler  {
+    font-size: 3.5rem;
+    margin-right: 3%;
+    color: white;
+}
+
+.navbar-nav {
+    position: absolute;
+    left: 0;
+    top: 7.5rem;
+    padding-top:0;
+}
+
+ul.navbar-nav {
+    background-color:rgba(90, 172, 190, .65);
+}
+
+.navbar.navbar-expand-lg.navbar-light a.navbar-brand{
+    color: #ffffff;
+}
+
+.navbar-brand {
+    color: #ffffff;
+    font-size: 3.5rem;
+    margin-left: 2%;
+    font-weight: bold;
+}
+
+.collapse ul.navbar-nav.nav li a {
+    color:#ffffff;
+}
+
+.navbar-light {
+    background-color: rgba(90, 172, 190, .65);
+}
+
+
+.nav-item {
+    width: 100vw;
+}
+
+.nav-link {
+    line-height: 3rem;
+    height: 100%;
+    width: 100%;
+    color: #3E4C5E;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: #3E4C5E;
+    background-color: white;
+}
+
+a.nav-link:hover,
+a.nav-link:focus,
+a.nav-link:active {
+    background-color: white;
+    color: #3E4C5E;
+}
+
+.navbar {
+    height: 7.5rem;
+    padding: 0;
+}
+
+/* Media Queries */
+
+@media(min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+    padding: 2.65rem 1rem;
+    max-height: 7.5rem;
+    line-height: 2.2rem;
+    width: 100%;
+    font-size: 2.2rem;
+}
+
+    .nav-item {
+    width: 100%;
+    padding: 0;
+}
+    
+    ul.navbar-nav {
+        background-color:transparent;
+    }
+
+    .navbar-nav {
+    margin-right: 2%;
+    top: 0;
+    right:0;
+    left: auto;
+}
+}
+
