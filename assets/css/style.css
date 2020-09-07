@@ -14,12 +14,23 @@ html {
     background-color:rgba(90, 172, 190, .65); 
 }
 
+.bg-color-white {
+    background-color:#ffffff;
+}
+
 .font-color-light {
     color: #ffffff;
 }
 
-/* Navbar Styling */
+.font-color-pink {
+    color: #E85D75;
+}
 
+.font-color-dark {
+    color: #3E4C5E;
+}
+
+/* Navbar Styling */
 .collapse .navbar-collapse {
     justify-content: start;
 }
@@ -45,9 +56,6 @@ html {
     padding-top:0;
 }
 
-ul.navbar-nav {
-    background-color:rgba(90, 172, 190, .65);
-}
 
 .navbar.navbar-expand-lg.navbar-light a.navbar-brand{
     color: #ffffff;
@@ -97,15 +105,75 @@ a.nav-link:active {
     padding: 0;
 }
 
-/* Media Queries */
 
+/* Landing Styling */
+.landing-section {
+    background-color: #5AACBE
+}
+.image-container {
+    position: absolute;
+    justify-content: center;
+    align-content: center;
+    left: 0;
+    top: 7.5rem;
+    height: 100%;
+    width: 100%;
+    max-height: 75vh;
+
+
+    background: url(/assets/images/office-hero.jpg) center center no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.image-container .img-dark-overlay {
+    z-index: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color:black;
+    opacity: .5;
+}
+.jumbotron.callout h1 {
+    font-size: 4rem;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 5rem;
+}
+
+.jumbotron.callout {
+    position: relative;
+    z-index: +2;
+    margin-top: 7.5rem;
+    background: transparent;
+}
+
+.btn-tour {
+    font-family: "Fira Sans", sans-serif;
+    background-color: #E85D75;
+    color:#ffffff;
+    font-size: 2rem;
+    border-radius: 1rem;
+    padding: 10px 50px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+
+/* Media Queries */
 @media(min-width: 992px) {
     .navbar-expand-lg .navbar-nav .nav-link {
     padding: 2.65rem 1rem;
     max-height: 7.5rem;
     line-height: 2.2rem;
     width: 100%;
-    font-size: 2.2rem;
+    font-size: 2rem;
 }
 
     .nav-item {
@@ -122,6 +190,11 @@ a.nav-link:active {
     top: 0;
     right:0;
     left: auto;
+}
+
+    .jumbotron.callout h1 {
+    font-size: 5rem;
+    text-align: center;
 }
 }
 
