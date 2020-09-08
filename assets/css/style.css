@@ -7,10 +7,32 @@ html {
     margin: 0;
     padding: 0;
     font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+.section-heading {
+    border-bottom: 3px #3E4C5E solid;
+    position: relative;
+    margin: 0rem 10rem;
+    padding-bottom: 4rem;
+    top: 5rem;
+}
+
+.section-heading h2 {
+    font-family: "Fira-Sans", sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.positioning-block {
+    position: relative;
+    top: 0;
+    height: 7.5rem;
+    width: 100vw;
 }
 
 /* Colors */
-.bg-color-lightblue{
+.bg-color-lightblue {
     background-color:rgba(90, 172, 190, .65); 
 }
 
@@ -31,8 +53,11 @@ html {
 }
 
 /* Navbar Styling */
-.collapse .navbar-collapse {
+.collapse.navbar-collapse {
+    position: relative;
     justify-content: start;
+    width: 100vw;
+    height: 25rem;
 }
 
 .nav-link, 
@@ -52,10 +77,9 @@ html {
 .navbar-nav {
     position: absolute;
     left: 0;
-    top: 7.5rem;
     padding-top:0;
+    box-shadow: 0rem .8rem rgba(33, 37, 41, 0.1);
 }
-
 
 .navbar.navbar-expand-lg.navbar-light a.navbar-brand{
     color: #ffffff;
@@ -73,11 +97,11 @@ html {
 }
 
 .navbar-light {
-    background-color: rgba(90, 172, 190, .65);
+    background-color: white;
 }
 
-
 .nav-item {
+    padding: 5px 0px;
     width: 100vw;
 }
 
@@ -105,23 +129,35 @@ a.nav-link:active {
     padding: 0;
 }
 
+.nav-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 7.5rem;
+    width: 100vw;
+    z-index: -1;
+    box-shadow: 0rem .8rem rgba(33, 37, 41, 0.1);
+}
+
 
 /* Landing Styling */
 .landing-section {
-    background-color: #5AACBE
+    position: relative;
+    top: 0;
+    max-height: 75vh;
+    width: auto;
 }
+
 .image-container {
-    position: absolute;
+    margin:0;
     justify-content: center;
     align-content: center;
     left: 0;
-    top: 7.5rem;
-    height: 100%;
+    height: 75vh;
     width: 100%;
-    max-height: 75vh;
 
 
-    background: url(/assets/images/office-hero.jpg) center center no-repeat fixed;
+    background: url(/assets/images/office-hero.jpg) center center no-repeat ;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -140,6 +176,7 @@ a.nav-link:active {
     background-color:black;
     opacity: .5;
 }
+
 .jumbotron.callout h1 {
     font-size: 4rem;
     text-align: center;
@@ -163,6 +200,52 @@ a.nav-link:active {
     padding: 10px 50px;
     font-weight: 400;
     letter-spacing: 1px;
+}
+
+/* About Section */
+
+.about-section {
+    position: relative;
+    top: 0;
+    height: 100%;
+    clear:both;
+    padding-bottom: 11rem;
+}
+
+.about-card-container {
+    position: relative;
+    margin-top: 10rem;
+}
+
+.about-icon {
+    color: #3E4C5E;
+    font-size: 5rem;
+    width: 9rem;
+    height: 9rem;
+    background-color: #ffffff;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: center;
+    line-height: 9rem;
+}
+
+.about-icon-circle {
+    background-color: #ffffff;
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+}
+
+.about-card {
+    color: #3E4C5E;
+    max-width: 80vw;
+    margin-bottom: 6rem;
+}
+
+.about-card p {
+    font-size: 2rem;
+    text-align: left;
+    font-weight: 600;
 }
 
 
@@ -191,6 +274,15 @@ a.nav-link:active {
     right:0;
     left: auto;
 }
+
+
+    .collapse.navbar-collapse {
+        position: relative;
+        justify-content: start;
+        width: 100vw;
+        background: transparent;
+        height: 100%;
+    }
 
     .jumbotron.callout h1 {
     font-size: 5rem;

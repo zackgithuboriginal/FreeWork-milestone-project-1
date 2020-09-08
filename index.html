@@ -6,17 +6,18 @@
     <title>FreeWork - Coworking</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <header class="navigation-section">
-        <div class="navbar navbar-expand-lg navbar-light bg-color-lightblue fixed-top">
+    <header class="navigation-section container-fluid ">
+        <div class="navbar navbar-expand-lg navbar-light bg-color-white fixed-top">
+            <div class="bg-color-lightblue nav-bg"></div>
             <a class="navbar-brand" href="#">FW</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="" role="button" ><i class="fa fa-bars" aria-hidden="true"></i></span>
             </button>
-            <div class="collapse navbar-collapse row" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse row bg-color-white" id="navbarSupportedContent">
                 <ul class="navbar-nav nav bg-color-lightblue">
                     <li class="nav-item col-lg">
                         <a class="nav-link text-nowrap active" href="#">Home <span class="sr-only">(current)</span></a>
@@ -32,30 +33,66 @@
                     </li>
                     <li class="nav-item col-lg">
                         <a class="nav-link text-nowrap" href="#">Contact</a>
-
                     </li>
                 </ul>
             </div>
                 
         </div>
     </header>
-    <section class="landing-section">
-        <div class="image-container">
+    <div class="positioning-block">
+    </div>
+    <section class="landing-section container-fluid row">
+        <div class="image-container col-12 no-gutters">
             <div class="img-dark-overlay"></div>
             <div class="jumbotron callout text-center">
                 <h1 class="font-color-light">Join Ireland's Most Exciting Coworking Movement</h1>
                 <button class="btn btn-tour">Arrange a Tour Now</button>
             </div>
         </div>
-
     </section>
-    <section>
-        <!--    About      -->
-    
+    <section class="about-section container-fluid text-center bg-color-lightblue">
+        <div class="section-heading row">
+            <h2 class="text-color-white col-12 font-color-dark">About FreeWork</h2>
+        </div>
+        <div class="about-card-container row justify-content-center">
+            <div class="col-12 col-lg-4 about-card mr-lg-3">
+                <div class="row">
+                    <div class="col-4"><i class="about-icon  fas fa-handshake"></i></div>
+                    <div class=" col-8">
+                    <p>Founded in 2009 we are a 100% Irish-owned company.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 about-card">
+                <div class="row justify-content-end">
+                    <div class=" col-8">
+                    <p>Committed to providing a cutting edge professional environment and bespoke services to our residents and visitors.</p>
+                    </div>
+                    <div class="col-4"><i class="about-icon  fas fa-briefcase"></i></div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 about-card mr-lg-3">
+                <div class="row">
+                    <div class="col-4"><i class="about-icon fas fa-chart-line"></i></div>
+                    <div class=" col-8">
+                    <p>Expereiencing rapid growth, now with offices in Cork, Galway and Dublin</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 about-card">
+                <div class="row justify-content-end">
+                    <div class=" col-8">
+                    <p>Three times winner of the Innovative Business Award, 2011, 2014 and 2015.</p>
+                    </div>
+                    <div class="col-4">
+                    <i class="about-icon fas fa-medal"></i></div>
+                </div>
+            </div>
+        </div>
     </section>
     <section>
         <!--    Benefits   -->
-    
+
     </section>
     <section>
         <!--    Spaces     -->
