@@ -33,7 +33,7 @@ html {
 
 /* Colors */
 .bg-color-lightblue {
-    background-color:rgba(90, 172, 190, .65); 
+    background-color:rgba(90, 172, 190, .6); 
 }
 
 .bg-color-white {
@@ -78,7 +78,7 @@ html {
     position: absolute;
     left: 0;
     padding-top:0;
-    box-shadow: 0rem .8rem rgba(33, 37, 41, 0.1);
+    box-shadow: 0rem .4rem rgba(33, 37, 41, 0.1);
 }
 
 .navbar.navbar-expand-lg.navbar-light a.navbar-brand{
@@ -136,7 +136,7 @@ a.nav-link:active {
     height: 7.5rem;
     width: 100vw;
     z-index: -1;
-    box-shadow: 0rem .8rem rgba(33, 37, 41, 0.1);
+    box-shadow: 0rem .4rem rgba(33, 37, 41, 0.1);
 }
 
 
@@ -209,31 +209,23 @@ a.nav-link:active {
     top: 0;
     height: 100%;
     clear:both;
-    padding-bottom: 11rem;
+    padding-bottom: 8rem;
 }
 
 .about-card-container {
     position: relative;
-    margin-top: 10rem;
 }
 
 .about-icon {
     color: #3E4C5E;
     font-size: 5rem;
-    width: 9rem;
-    height: 9rem;
-    background-color: #ffffff;
-    border-radius: 50%;
     text-align: center;
     vertical-align: center;
-    line-height: 9rem;
+    transition: 0.3s;
 }
 
-.about-icon-circle {
-    background-color: #ffffff;
-    width: 8rem;
-    height: 8rem;
-    border-radius: 50%;
+.about-card:hover .about-icon{
+    color: #ffffff;
 }
 
 .about-card {
@@ -262,16 +254,13 @@ a.nav-link:active {
     clear:both;
     padding-bottom: 8rem;
 }
-.benefit-card-container {
-
-}
 
 .benefit-card {
     color: #3E4C5E;
     background-color: rgba(250, 227, 227, 0.5);
     margin: 1rem 1rem;
-    max-width: 30rem;
-    padding: 2.8rem 2.2rem 3rem 2.2rem;
+    max-width: 35rem;
+    padding: 2.8rem 2.6rem 4rem 2.6rem;
     border-radius: 2rem;
 }
 
@@ -292,12 +281,12 @@ a.nav-link:active {
 .benefit-card p {
     position: relative;
     top: 3rem;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     font-weight: 500;
 }
 
 .benefit-card h3 {
-    font-size: 2rem;
+    font-size: 2.4rem;
     font-weight: 600;
 }
 
