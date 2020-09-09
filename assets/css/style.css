@@ -11,7 +11,7 @@ html {
 }
 
 .section-heading {
-    border-bottom: 3px #3E4C5E solid;
+    border-bottom: 3px solid;
     position: relative;
     margin: 0rem 10rem 10rem 10rem;
     padding-bottom: 4rem;
@@ -20,7 +20,7 @@ html {
 
 .section-heading h2 {
     font-family: "Fira-Sans", sans-serif;
-    font-size: 3rem;
+    font-size: 3.4rem;
     font-weight: bold;
 }
 
@@ -42,6 +42,7 @@ html {
 
 .font-color-light {
     color: #ffffff;
+    border-color: #ffffff;
 }
 
 .font-color-pink {
@@ -50,6 +51,7 @@ html {
 
 .font-color-dark {
     color: #3E4C5E;
+    border-color: #3E4C5E;
 }
 
 /* Navbar Styling */
@@ -70,7 +72,7 @@ html {
 
 .navbar button.navbar-toggler  {
     font-size: 3.5rem;
-    margin-right: 3%;
+    margin-right: 10vw;
     color: white;
 }
 
@@ -234,6 +236,7 @@ a.nav-link:active {
     margin-bottom: 6rem;
 }
 
+
 .about-card p {
     font-size: 2rem;
     text-align: left;
@@ -247,7 +250,6 @@ a.nav-link:active {
 /* Benefits Styling */
 
 .benefits-section {
-
     position: relative;
     top: 0;
     height: 100%;
@@ -259,7 +261,7 @@ a.nav-link:active {
     color: #3E4C5E;
     background-color: rgba(250, 227, 227, 0.5);
     margin: 1rem 1rem;
-    max-width: 35rem;
+    max-width: 80vw;
     padding: 2.8rem 2.6rem 4rem 2.6rem;
     border-radius: 2rem;
 }
@@ -288,6 +290,46 @@ a.nav-link:active {
 .benefit-card h3 {
     font-size: 2.4rem;
     font-weight: 600;
+}
+
+
+/* Spaces Styling */
+
+.spaces-section {
+    position: relative;
+    top: 0;
+    height: 100%;
+    clear:both;
+    padding-bottom: 8rem;
+}
+
+.spaces-container {
+    position: relative;
+}
+
+.space {
+    position: relative;
+    max-width: 80vw;
+    margin-top: 7.5rem;
+    left: 10vw;
+}
+.space-title {
+    margin-bottom: 5rem;
+    font-size: 3.2rem;
+    color: #ffffff;
+    font-family: "Fira Sans", sans-serif;
+    text-align: left;
+}
+p.space-description, p.space-description-right {
+    margin-top: 5rem;
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+
+}
+
+.space img {
+    max-width: 80vw;
+    height: auto;
 }
 
 /* Media Queries */
@@ -333,5 +375,27 @@ a.nav-link:active {
     .benefit-card {
         margin: 1rem 2rem;
 }
+
+    .space-title {
+
+    position: relative;
+    left: -5rem;
+    }
+
+    p.space-description {
+        margin-top: 0;
+        margin-left: 5rem;
+        text-align: left;
+        padding-left: 5rem;
+        border-left: #ffffff 3px solid;
+    }
+
+    p.space-description-right {
+        margin-top: 0;
+        margin-right: 5rem;
+        text-align: left;
+        padding-right: 5rem;
+        border-right: #ffffff 3px solid;
+    }
 }
 
