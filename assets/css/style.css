@@ -400,6 +400,32 @@ p.space-description, p.space-description-right {
 
 }
 
+/* Footer */
+
+footer {
+    height: 7.5rem;
+}
+
+footer div.row {
+    position: relative;
+    left: 4rem;
+    top: 2rem;
+}
+footer p {
+    line-height: 3rem;
+    font-size: 1.6rem;
+}
+
+footer i {
+    font-size: 3rem;
+    color: #ffffff;
+    margin-left: 1rem;
+}
+
+footer a:hover i{
+    color: #3E4C5E;
+}
+
 /* Media Queries */
 @media(min-width: 992px) {
     .navbar-expand-lg .navbar-nav .nav-link {
