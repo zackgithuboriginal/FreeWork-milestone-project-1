@@ -312,14 +312,13 @@ a.nav-link:active {
 }
 
 .spaces-container {
-    position: relative;
+    justify-content: center;
 }
 
 .space {
     position: relative;
     max-width: 80vw;
     margin-top: 7.5rem;
-    left: 10vw;
 }
 
 .space-title {
