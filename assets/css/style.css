@@ -365,14 +365,14 @@ p.space-description, p.space-description-right {
 }
 
 .contact-title {
-    margin-top: 2rem;
+    margin-top: 3rem;
     font-size: 3rem;
     font-weight:500;
     font-family: "Fira Sans";
 }
 
 .contact-card button {
-    margin-top: 7rem;
+    margin-top: 3rem;
 }
 
 .contact-card .form-control {
@@ -382,44 +382,63 @@ p.space-description, p.space-description-right {
     line-height: 2rem;
 }
 .btn-submit {
-    margin-top: 1.5rem;
+    margin-top: 3rem;
     font-size: 2rem;
     font-weight: 400;
     line-height: 2rem;
     background-color:#E85D75;
     color: #ffffff;
     padding: 1rem;
-    transition: .6s;font-family: "Fira Sans", sans-serif;
+    transition: .6s;
+    font-family: "Fira Sans", sans-serif;
     border-radius: 1rem;
     letter-spacing: 1px;
+    border: 0px;
 }
 
 .btn-submit:hover {
     background-color: #ffffff;
-    color: #E85D75;
+    color:#3E4C5E;
 
+}
+.contact-phone {
+    position: relative;
+    padding: 1rem;
+    border-radius: 1rem;
+    font-size: 2.4rem;
+    font-weight: 500;
+    color: #3E4C5E;
+    transition: .4s;
+    margin-top: 3rem;
+}
+
+.contact-phone:hover {
+    font-size: 2.8rem;
+    font-weight: 600;
+    text-decoration: none;
 }
 
 /* Footer */
 
 footer {
-    height: 7.5rem;
+    height: 100%;
+    padding-bottom: 4rem;
 }
 
 footer div.row {
     position: relative;
-    left: 4rem;
-    top: 2rem;
+    top: 3rem;
 }
 footer p {
+    margin-top: 2rem;
     line-height: 3rem;
     font-size: 1.6rem;
 }
 
 footer i {
-    font-size: 3rem;
+    font-size: 5rem;
     color: #ffffff;
-    margin-left: 1rem;
+    margin: 0rem 1.5rem;
 }
 
 footer a:hover i{
@@ -477,6 +496,12 @@ footer a:hover i{
     left: -5rem;
     }
 
+    
+    .space img {
+        max-width: 40vw;
+        height: auto;
+    }
+
     p.space-description {
         margin-top: 0;
         margin-left: 5rem;
@@ -498,4 +523,3 @@ footer a:hover i{
         margin-top:0rem;
     }
 }
-
