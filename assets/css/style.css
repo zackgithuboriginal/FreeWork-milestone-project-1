@@ -8,14 +8,15 @@ html {
     padding: 0;
     font-size: 62.5%;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 .section-heading {
     border-bottom: 3px solid;
     position: relative;
-    margin: 0rem 10rem 10rem 10rem;
+    margin: 0rem 10rem 15rem 10rem;
     padding-bottom: 4rem;
-    top: 5rem;
+    top: 8rem;
 }
 
 .section-heading h2 {
@@ -355,7 +356,7 @@ p.space-description, p.space-description-right {
     top: 0;
     height: 100%;
     clear:both;
-    padding-bottom: 8rem;
+    padding-bottom: 4rem;
 }
 
 .contact-card {
