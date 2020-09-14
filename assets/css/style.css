@@ -22,6 +22,7 @@ html {
     font-family: "Fira-Sans", sans-serif;
     font-size: 3.4rem;
     font-weight: bold;
+    text-align: center;
 }
 
 .positioning-block {
@@ -78,6 +79,7 @@ html {
     justify-content: start;
     width: 100vw;
     height: 25rem;
+    margin:0;
 }
 
 .nav-link, 
@@ -90,7 +92,7 @@ html {
 
 .navbar button.navbar-toggler  {
     font-size: 3.5rem;
-    margin-right: 10vw;
+    margin-right: 5vw;
     color: white;
 }
 
@@ -99,6 +101,7 @@ html {
     left: 0;
     padding-top:0;
     box-shadow: 0rem .4rem rgba(33, 37, 41, 0.1);
+    margin:0;
 }
 
 .navbar.navbar-expand-lg.navbar-light a.navbar-brand{
@@ -166,6 +169,8 @@ a.nav-link:active {
     top: 0;
     max-height: 75vh;
     width: auto;
+    padding: 0;
+    margin:0;
 }
 
 .image-container {
@@ -293,6 +298,7 @@ a.nav-link:active {
     top: 3rem;
     font-size: 1.8rem;
     font-weight: 500;
+    text-align: justify;
 }
 
 .benefit-card h3 {
@@ -447,29 +453,29 @@ footer a:hover i{
 /* Media Queries */
 @media(min-width: 992px) {
     .navbar-expand-lg .navbar-nav .nav-link {
-    padding: 2.65rem 1rem;
-    max-height: 7.5rem;
-    line-height: 2.2rem;
-    width: 100%;
-    font-size: 2rem;
-}
+        padding: 2.65rem 1rem;
+        max-height: 7.5rem;
+        line-height: 2.2rem;
+        width: 100%;
+        font-size: 2rem;
+    }
 
     .nav-item {
-    width: 100%;
-    padding: 0;
-}
+        width: 100%;
+        padding: 0;
+    }
     
     ul.navbar-nav {
         background-color:transparent;
     }
 
     .navbar-nav {
-    margin-right: 2%;
-    top: 0;
-    right:0;
-    left: auto;
-    box-shadow: 0rem 0rem;
-}
+        margin-right: 2%;
+        top: 0;
+        right:0;
+        left: auto;
+        box-shadow: 0rem 0rem;
+    }
 
     .collapse.navbar-collapse {
         position: relative;
@@ -477,25 +483,23 @@ footer a:hover i{
         width: 100vw;
         background: transparent;
         height: 100%;
-}
+    }
 
     .jumbotron.callout h1 {
-    font-size: 5rem;
-    text-align: center;
-}
+        font-size: 5rem;
+        text-align: center;
+    }
 
     .benefit-card {
         margin: 1rem 2rem;
         max-width: 20vw;
-}
-
-    .space-title {
-
-    position: relative;
-    left: -5rem;
     }
 
-    
+    .space-title {
+        position: relative;
+        left: -5rem;
+    }
+
     .space img {
         max-width: 40vw;
         height: auto;
@@ -516,7 +520,6 @@ footer a:hover i{
         padding-right: 5rem;
         border-right: #ffffff 3px solid;
     }
-
 
     .contact-card {
         margin-top:0rem;
