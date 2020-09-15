@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap");
 
-/* General Styling */
+/* --------------------------- General Styling --------------------------- */
 html {
     font-family: 'Poppins', sans-serif;
     color: #3E4C5E;
@@ -51,7 +51,7 @@ html {
 
 }
 
-/* Colors */
+/* --------------------------- Colors --------------------------- */
 .bg-color-lightblue {
     background-color:rgba(90, 172, 190, .6); 
 }
@@ -74,7 +74,7 @@ html {
     border-color: #3E4C5E;
 }
 
-/* Navbar Styling */
+/* --------------------------- Navbar Styling --------------------------- */
 .collapse.navbar-collapse {
     position: relative;
     justify-content: start;
@@ -164,10 +164,10 @@ a.nav-link:active {
 }
 
 
-/* Landing Styling */
+/* --------------------------- Landing Styling --------------------------- */
 .landing-section {
     position: relative;
-    top: 0;
+    top: 7.5rem;
     max-height: 75vh;
     width: auto;
     padding: 0;
@@ -217,11 +217,11 @@ a.nav-link:active {
     background: transparent;
 }
 
-/* About Section */
+/* --------------------------- About Section --------------------------- */
 
 .about-section {
     position: relative;
-    top: 0;
+    top: 7.5rem;
     height: 100%;
     clear:both;
     padding-bottom: 8rem;
@@ -260,11 +260,11 @@ a.nav-link:active {
     font-size: 2.2rem;
     color: #ffffff;
 }
-/* Benefits Styling */
+/* --------------------------- Benefits Styling --------------------------- */
 
 .benefits-section {
     position: relative;
-    top: 0;
+    top: 7.5rem;
     height: 100%;
     clear:both;
     padding-bottom: 8rem;
@@ -308,11 +308,11 @@ a.nav-link:active {
 }
 
 
-/* Spaces Styling */
+/* --------------------------- Spaces Styling --------------------------- */
 
 .spaces-section {
     position: relative;
-    top: 0;
+    top: 7.5rem;
     height: 100%;
     clear:both;
     padding-bottom: 8rem;
@@ -356,11 +356,11 @@ p.space-description, p.space-description-right {
 .spaces-link:hover {
     color:#3E4C5E;
 }
-/* Contact Section */
+/* --------------------------- Contact Section --------------------------- */
 
 .contact-section {
     position: relative;
-    top: 0;
+    top: 7.5rem;
     height: 100%;
     clear:both;
     padding-bottom: 4rem;
@@ -431,9 +431,11 @@ p.space-description, p.space-description-right {
     text-decoration: none;
 }
 
-/* Footer */
+/* --------------------------- Footer --------------------------- */
 
 footer {
+    position: relative;
+    top: 7.5rem;
     height: 100%;
     padding-bottom: 4rem;
 }
@@ -458,7 +460,8 @@ footer a:hover i{
     color: #3E4C5E;
 }
 
-/* Media Queries */
+/* --------------------------- Media Queries --------------------------- */
+
 @media(min-width: 992px) {
     .navbar-expand-lg .navbar-nav .nav-link {
         padding: 2.65rem 1rem;
