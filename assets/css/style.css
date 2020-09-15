@@ -348,7 +348,14 @@ p.space-description, p.space-description-right {
     height: auto;
 }
 
+.spaces-link {
+    font-size: 2rem;
+    color: #ffffff;
+}
 
+.spaces-link:hover {
+    color:#3E4C5E;
+}
 /* Contact Section */
 
 .contact-section {
@@ -371,7 +378,7 @@ p.space-description, p.space-description-right {
 }
 
 .contact-title {
-    margin-top: 3rem;
+    margin-top: 4rem;
     font-size: 3rem;
     font-weight:500;
     font-family: "Fira Sans";
