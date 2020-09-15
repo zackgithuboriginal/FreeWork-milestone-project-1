@@ -183,7 +183,7 @@ a.nav-link:active {
     width: 100%;
 
 
-    background: url(/assets/images/office-hero.jpg) center center no-repeat ;
+    background: url(../images/office-hero.jpg) center center no-repeat ;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
