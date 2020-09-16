@@ -217,7 +217,7 @@ a.nav-link:active {
     background: transparent;
 }
 
-/* --------------------------- About Section --------------------------- */
+/* --------------------------- About Styling --------------------------- */
 
 .about-section {
     position: relative;
@@ -356,7 +356,7 @@ p.space-description, p.space-description-right {
 .spaces-link:hover {
     color:#3E4C5E;
 }
-/* --------------------------- Contact Section --------------------------- */
+/* --------------------------- Contact Styling --------------------------- */
 
 .contact-section {
     position: relative;
