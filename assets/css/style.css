@@ -460,6 +460,61 @@ footer a:hover i{
     color: #3E4C5E;
 }
 
+/* --------------------------- Modal --------------------------- */
+
+body.modal-open {
+    padding: 0 !important;
+}
+
+.modal {
+    top: 15vh;
+    max-width: 100vw;
+}
+
+.modal-logo {
+    position: relative;
+    top: 4rem;
+    text-align: center;
+    padding: 0;
+    margin-bottom: 5rem;
+}
+
+.modal-header {
+    padding-bottom: 6rem;
+    border: 0;
+}
+
+
+.modal-logo h1 {
+    background-color: rgba(90, 172, 190, .6);
+    color: #ffffff;
+    font-weight: 600;
+    padding: 3rem;
+    font-size: 6rem;
+    display: inline;
+}
+
+.modal-header h2 {
+    position: relative;
+    top: 5rem;
+    font-size: 2.5rem;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+}
+
+.modal-content {
+    margin: 0;
+    padding-bottom: 5rem;
+}
+
+.modal-header hr {
+    position: relative;
+    top: 5rem;
+    width: 50%;
+    border-bottom: 3px rgba(90, 172, 190, .6) solid;
+}
+
+
 /* --------------------------- Media Queries --------------------------- */
 
 @media(min-width: 992px) {
