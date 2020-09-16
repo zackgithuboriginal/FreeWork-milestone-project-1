@@ -467,6 +467,7 @@ body.modal-open {
 }
 
 .modal {
+    padding-right: 0 !important;
     top: 15vh;
     max-width: 100vw;
 }
@@ -504,16 +505,41 @@ body.modal-open {
 
 .modal-content {
     margin: 0;
-    padding-bottom: 5rem;
+    padding: 3rem;
 }
 
 .modal-header hr {
     position: relative;
     top: 5rem;
-    width: 50%;
+    width: 80%;
     border-bottom: 3px rgba(90, 172, 190, .6) solid;
 }
 
+.modal-body {
+    position: relative;
+    top: -1rem;
+}
+
+.form-group, .form-row  {
+    margin-top: 1.5rem;
+}
+
+.modal-form {
+    height: 4rem;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    color: #3E4C5E;
+    border: 2px solid rgba(90, 172, 190, .6);
+}
+
+.modal-label {
+    font-size: 2.5rem;
+    color: #3E4C5E;
+}
+
+form div {
+    max-width: 100%;
+}
 
 /* --------------------------- Media Queries --------------------------- */
 
