@@ -541,6 +541,13 @@ form div {
     max-width: 100%;
 }
 
+.modal-close-btn {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    font-size: 3.4rem;
+}
+
 /* --------------------------- Media Queries --------------------------- */
 
 @media(min-width: 992px) {
