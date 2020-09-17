@@ -48,7 +48,7 @@ html {
 .btn-tour:hover {
     background-color: #ffffff;
     color: #3E4C5E;
-
+    
 }
 
 /* --------------------------- Colors --------------------------- */
@@ -412,9 +412,11 @@ p.space-description, p.space-description-right {
     border-radius: 1rem;
     letter-spacing: 1px;
     border: 0px;
+    cursor: pointer;
 }
 
-.btn-submit:hover {
+.btn-submit:hover,
+.btn-submit:focus {
     background-color: #ffffff;
     color:#3E4C5E;
 
@@ -563,7 +565,7 @@ form div {
     padding: 0rem 3rem;
     font-family: "Fira Sans", sans-serif;
     background-color: transparent;
-    transition: .5s;
+    cursor: pointer;
 }
 
 .btn-bg-submit, .btn-bg-close { 
@@ -575,11 +577,10 @@ form div {
     transition: .5s ease-in;
 }
 
-.btn-bg:hover > .btn-bg-submit {
-    height: 100%;
-}
-
-.btn-bg:hover > .btn-bg-close {
+.btn-bg:hover > .btn-bg-submit, 
+.btn-bg:hover > .btn-bg-close,
+.modal-submit:focus + .btn-bg-submit,
+.modal-close:focus + .btn-bg-close {
     height: 100%;
 }
 
