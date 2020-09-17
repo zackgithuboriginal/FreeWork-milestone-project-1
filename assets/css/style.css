@@ -323,17 +323,19 @@ a.nav-link:active {
 }
 
 .spaces-container {
+    top:-2rem;
     justify-content: center;
 }
 
 .space {
     position: relative;
     max-width: 80vw;
-    margin-top: 7.5rem;
+    margin-top: 2rem;
 }
 
 .space-title {
-    margin-bottom: 5rem;
+    padding: 0;
+    margin-bottom: 3rem;
     font-size: 3.2rem;
     color: #ffffff;
     font-family: "Fira Sans", sans-serif;
@@ -341,10 +343,9 @@ a.nav-link:active {
 }
 
 p.space-description, p.space-description-right {
-    margin-top: 5rem;
+    margin-top: 3rem;
     font-size: 1.8rem;
-    letter-spacing: 1px;
-
+    text-align: left;
 }
 
 .space img {
