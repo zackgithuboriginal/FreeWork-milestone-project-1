@@ -176,9 +176,9 @@
                 <h3 class="contact-title col-12">Get In Contact</h3>
                 <div class="form-group">
                     <form>
-                    <input type="text" class="form-control" placeholder="Name">
-                    <input type="text" class="form-control" placeholder="Email Address">
-                    <textarea name="" id="" cols="30" rows="5" class="form-control" placeholder="Your Message"></textarea>
+                    <input name="name" type="text" class="form-control" placeholder="Name">
+                    <input name="email" type="email" class="form-control" placeholder="Email Address">
+                    <textarea name="contact-message" cols="30" rows="5" class="form-control" placeholder="Your Message"></textarea>
                     <input type="submit" value="Submit" class="col-12 btn-submit">
                     </form>
                 </div>
@@ -218,24 +218,24 @@
                         <div class="form-row justify-content-center">
                             <div class="col-6">
                                 <label for="inputFirstName" class="modal-label">First Name</label>
-                                <input type="text" class="form-control modal-form " id="inputFirstName" placeholder="First Name">
+                                <input name="firstName" type="text" class="form-control modal-form " id="inputFirstName" placeholder="First Name">
                             </div>
                             <div class="col-6">
                                 <label for="inputSurname" class="modal-label">Surname</label>
-                                <input type="text" class="form-control modal-form" id="inputSurname" placeholder="Surname">
+                                <input name="surname" type="text" class="form-control modal-form" id="inputSurname" placeholder="Surname">
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="inputFirstName" class="modal-label">Contact Email</label>
-                            <input class="col-12 modal-form form-control" type="email" placeholder="Email Address">
+                            <input name="email" class="col-12 modal-form form-control" type="email" placeholder="Email Address">
                         </div>
                         <div class="form-group">
                             <label for="inputFirstName" class="modal-label">Contact Phone No.</label>
-                            <input class="col-12 modal-form form-control" type="tel" id="inputPhone" name="phone" placeholder="+353 00 0000000">
+                            <input name="phone" class="col-12 modal-form form-control" type="tel" id="inputPhone" placeholder="+353 00 0000000">
                         </div>
                         <div class="form-group">
                             <label for="inputFirstName" class="modal-label">Preferred Date</label>
-                            <input class="col-12 modal-form form-control" type="date" id="inputDate">
+                            <input name="date" class="col-12 modal-form form-control" type="date" id="inputDate">
                         </div>
                     </form>
                 </div>
