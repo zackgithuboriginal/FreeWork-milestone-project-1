@@ -48,7 +48,6 @@ html {
 .btn-tour:hover {
     background-color: #ffffff;
     color: #3E4C5E;
-    
 }
 
 /* --------------------------- Colors --------------------------- */
@@ -99,6 +98,7 @@ html {
     font-size: 3.5rem;
     margin-right: 5vw;
     color: white;
+    border: none;
 }
 
 .navbar-nav {
@@ -166,7 +166,6 @@ a.nav-link:active {
     z-index: -1;
     box-shadow: 0rem .4rem rgba(33, 37, 41, 0.2);
 }
-
 
 /* --------------------------- Landing Styling --------------------------- */
 .landing-section {
