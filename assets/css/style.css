@@ -478,14 +478,13 @@ body.modal-open {
 
 .modal-logo {
     position: relative;
-    top: 4rem;
+    top: 1rem;
     text-align: center;
     padding: 0;
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
 }
 
 .modal-header {
-    padding-bottom: 6rem;
     border: 0;
 }
 
@@ -494,14 +493,14 @@ body.modal-open {
     background-color: rgba(90, 172, 190, .6);
     color: #ffffff;
     font-weight: 600;
-    padding: 3rem;
-    font-size: 6rem;
+    padding: 1rem;
+    font-size: 4rem;
     display: inline;
 }
 
 .modal-header h2 {
     position: relative;
-    top: 5rem;
+    top: 1rem;
     font-size: 2.5rem;
     font-family: "Fira Sans", sans-serif;
     font-weight: 400;
@@ -509,35 +508,32 @@ body.modal-open {
 
 .modal-content {
     margin: 0;
-    padding: 3rem;
+    padding: 2.5rem 2.5rem 0rem 2.5rem;
+    height: 100%;
 }
 
 .modal-header hr {
     position: relative;
-    top: 5rem;
+    top: .5rem;
     width: 80%;
     border-bottom: 3px rgba(90, 172, 190, .6) solid;
 }
 
-.modal-body {
-    position: relative;
-    top: -1rem;
-}
 
 .form-group, .form-row  {
-    margin-top: 1.5rem;
+    margin-top: 1.2rem;
 }
 
 .modal-form {
     height: 4rem;
-    font-size: 2.5rem;
-    line-height: 3rem;
+    font-size: 2rem;
+    line-height: 2.5rem;
     color: #3E4C5E;
     border: 2px solid rgba(90, 172, 190, .6);
 }
 
 .modal-label {
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: #3E4C5E;
 }
 
@@ -601,6 +597,8 @@ form div {
 }
 
 .modal-footer {
+    border-top: 0;
+    position: relative;
     justify-content: space-between;
 }
 /* --------------------------- Media Queries --------------------------- */
