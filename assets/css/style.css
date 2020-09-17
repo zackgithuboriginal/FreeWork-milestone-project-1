@@ -483,7 +483,7 @@ body.modal-open {
   border: none;
 }
 
-.modal-logo h1 {
+.modal-logo h3 {
   background-color: rgba(90, 172, 190, 0.6);
   color: #ffffff;
   font-weight: 600;
