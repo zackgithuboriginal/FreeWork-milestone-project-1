@@ -303,7 +303,7 @@ a.nav-link:active {
     top: 3rem;
     font-size: 1.8rem;
     font-weight: 500;
-    text-align: justify;
+    text-align: left;
 }
 
 .benefit-card h3 {
@@ -644,8 +644,8 @@ form div {
     }
 
     .benefit-card {
-        margin: 1rem 2rem;
-        max-width: 20vw;
+        margin: 0rem 1rem;
+        max-width: 22.5vw;
     }
 
     .space-title {
