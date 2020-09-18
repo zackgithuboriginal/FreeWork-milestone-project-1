@@ -54,14 +54,19 @@ The wireframes for the website were developed using [Figma](https://www.figma.co
 ## Features
 
 - ### Landing Page
+![Landing Page](https://github.com/zackgithuboriginal/FreeWork-milestone-project-1/blob/master/README-assets/images/landing-page.jpg)
 
 - ### About Section
+![About Section](https://github.com/zackgithuboriginal/FreeWork-milestone-project-1/blob/master/README-assets/images/features-about.png)
 
 - ### Benefits Section 
+![Benefits Section](https://github.com/zackgithuboriginal/FreeWork-milestone-project-1/blob/master/README-assets/images/features-benefits.png)
 
 - ### Spaces Section 
+![Spaces Section](https://github.com/zackgithuboriginal/FreeWork-milestone-project-1/blob/master/README-assets/images/features-spaces.jpg)
 
 - ### Contact Section
+![Contact Section](https://github.com/zackgithuboriginal/FreeWork-milestone-project-1/blob/master/README-assets/images/features-contact.png)
 
 - ### Responsive design
 ![Responsive design](https://github.com/zackgithuboriginal/FreeWork-milestone-project-1/blob/master/README-assets/images/responsive-design.png)
