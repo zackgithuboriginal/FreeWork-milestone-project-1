@@ -71,10 +71,11 @@ The wireframes for the website were developed using [Figma](https://www.figma.co
 - ### Contact Section
 ![Contact Section](https://github.com/zackgithuboriginal/FreeWork-milestone-project-1/blob/master/assets/images/features-contact.png)
 
+- ### Modal Window 
+![Modal Window](https://github.com/zackgithuboriginal/FreeWork-milestone-project-1/blob/master/assets/images/features-modal.png)
+
 - ### Responsive design
 ![Responsive design](https://github.com/zackgithuboriginal/FreeWork-milestone-project-1/blob/master/assets/images/responsive-design.png)
-
-- ### Modal Window 
 
 
 ## Technologies Used
