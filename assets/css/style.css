@@ -348,14 +348,13 @@ a.nav-link:active {
 p.space-description,
 p.space-description-right {
   margin-top: 3rem;
-  font-size: 1.8rem;
+  font-size: 2rem;
   text-align: left;
 }
 
 .space img {
-  max-width: 80vw;
-  width: auto;
-  max-height: 50rem;
+    width: 100%;
+    height: auto;
 }
 
 .spaces-link {
