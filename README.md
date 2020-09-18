@@ -1,11 +1,14 @@
 # FreeWork - Milestone Project 1
+
+
+![Image of Landing Page](https://github.com/zackgithuboriginal/FreeWork-milestone-project-1/blob/master/assets/images/multi-device-image.png)
+
 ## Website Description
 
 This project is a website for a fictional Irish coworking business named FreeWork. The business specialises in offering a variety of working options such as hotdesking, resident desks and dedicated offices. This website exists to advertise the company online and connect it with potential customers and clients. With this goal in mind, the website is designed to present visitors with the most useful information to sell them on both the business and the concept of coworking. 
 
 The website is designed to reflect the modern and innovative nature of the industry and the FreeWork business, in particular, using a cool and minimal layout with no cluttering elements and effective use of negative space. The website is responsive across all screen sizes to ensure that customers can view the website and have positive UX regardless of how they access it.  
 
-![Image of Landing Page](https://github.com/zackgithuboriginal/FreeWork-milestone-project-1/blob/master/README-assets/images/landing-page.jpg)
 
 ## User Experience / UX
 
@@ -30,7 +33,7 @@ The website is designed to reflect the modern and innovative nature of the indus
 One of the most important design aspirations for this website was the desire to have a very clean, consistent and calm aesthetic. This intention of this website was to advertise a business to potential customers so I considered it essential that the design would work to sell its atmosphere, ethos and energy.
 
 #### Colour Scheme
-![Image of the colour scheme](https://github.com/zackgithuboriginal/FreeWork-milestone-project-1/blob/master/README-assets/images/FreeWork-colour-scheme.png)
+![Image of the colour scheme](https://github.com/zackgithuboriginal/FreeWork-milestone-project-1/blob/master/assets/images/FreeWork-colour-scheme.png)
 
 For the colour scheme, I decided to go with a relaxed and calming selection of colours. The colours in use in the site are all either shades of blue and shades of pink. The two most prominent colours, marked above as #59abbd and #f9e3e3 are primarily used as background elements. They provide relaxed and minimal backgrounds to sections and elements of the webpage that allow for a positive reading and scrolling experience while in no way distracting from foreground elements or information. The third colour above, #e75b74 is a stronger shade of pink that is used against the lighter pink shade to accent and provide a contrast to it. This shade is used primarily in buttons to provide a visual pop and draw the eye to them. It is also used sparingly on decorative visual elements such as icons as I believe it allows the viewer to read the content and intention of the icon more quickly. The final colour used, #3e4c5e, is a navy - grey shade. This colour is almost solely used as the primary colour of text on the website. This colour was chosen as I believe it suited the background colours and tones more than a pure black font colour. The dark blue tone allows it to stand out against both of the background colours as well as the white space used in the website.
 
@@ -45,31 +48,31 @@ As it is a fictional business all of the imagery I use is stock imagery from [Un
 
 The wireframes for the website were developed using [Figma](https://www.figma.com/) They were used to design the majority of the website before I began coding, this allowed for a much smoother development cycle as the major design decisions were already made and I could simply follow the wireframes when writing the code. There were changes to layout and design approaching the end of the project as I decided what was working and what was not working at different device sizes. However, these changes were generally small in essence and the major design decisions carried through from the wireframes.
 
- -   Single Page Wireframe - [View](https://github.com/zackgithuboriginal/FreeWork-milestone-project-1/blob/master/README-assets/wireframes/landing-page-wireframe.pdf)
+ -   Single Page Wireframe - [View](https://github.com/zackgithuboriginal/FreeWork-milestone-project-1/blob/master/assets/wireframes/landing-page-wireframe.pdf)
 
- -   Mobile Single Page Wireframe - [View](https://github.com/zackgithuboriginal/FreeWork-milestone-project-1/blob/master/README-assets/wireframes/mobile-landing-page-wireframe.pdf)
+ -   Mobile Single Page Wireframe - [View](https://github.com/zackgithuboriginal/FreeWork-milestone-project-1/blob/master/assets/wireframes/mobile-landing-page-wireframe.pdf)
 
- -   Modal Wireframe - [View](https://github.com/zackgithuboriginal/FreeWork-milestone-project-1/blob/master/README-assets/wireframes/modal-wireframe.pdf)
+ -   Modal Wireframe - [View](https://github.com/zackgithuboriginal/FreeWork-milestone-project-1/blob/master/assets/wireframes/modal-wireframe.pdf)
 
 ## Features
 
 - ### Landing Page
-![Landing Page](https://github.com/zackgithuboriginal/FreeWork-milestone-project-1/blob/master/README-assets/images/landing-page.jpg)
+![Landing Page](https://github.com/zackgithuboriginal/FreeWork-milestone-project-1/blob/master/assets/images/landing-page.jpg)
 
 - ### About Section
-![About Section](https://github.com/zackgithuboriginal/FreeWork-milestone-project-1/blob/master/README-assets/images/features-about.png)
+![About Section](https://github.com/zackgithuboriginal/FreeWork-milestone-project-1/blob/master/assets/images/features-about.png)
 
 - ### Benefits Section 
-![Benefits Section](https://github.com/zackgithuboriginal/FreeWork-milestone-project-1/blob/master/README-assets/images/features-benefits.png)
+![Benefits Section](https://github.com/zackgithuboriginal/FreeWork-milestone-project-1/blob/master/assets/images/features-benefits.png)
 
 - ### Spaces Section 
-![Spaces Section](https://github.com/zackgithuboriginal/FreeWork-milestone-project-1/blob/master/README-assets/images/features-spaces.jpg)
+![Spaces Section](https://github.com/zackgithuboriginal/FreeWork-milestone-project-1/blob/master/assets/images/features-spaces.jpg)
 
 - ### Contact Section
-![Contact Section](https://github.com/zackgithuboriginal/FreeWork-milestone-project-1/blob/master/README-assets/images/features-contact.png)
+![Contact Section](https://github.com/zackgithuboriginal/FreeWork-milestone-project-1/blob/master/assets/images/features-contact.png)
 
 - ### Responsive design
-![Responsive design](https://github.com/zackgithuboriginal/FreeWork-milestone-project-1/blob/master/README-assets/images/responsive-design.png)
+![Responsive design](https://github.com/zackgithuboriginal/FreeWork-milestone-project-1/blob/master/assets/images/responsive-design.png)
 
 - ### Modal Window 
 
@@ -119,8 +122,8 @@ I tested the website thoroughly, throughout development I would ensure that it l
 
 
 At the end of the project, the code was put through CSS and HTML validators to ensure there were no syntax errors.
--   [Markup Validator](https://validator.w3.org/nu/) - [HTML Testing Results](https://github.com/zackgithuboriginal/FreeWork-milestone-project-1/blob/master/README-assets/images/html-validation.png)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [CSS Testing Results](https://github.com/zackgithuboriginal/FreeWork-milestone-project-1/blob/master/README-assets/images/css-validation.png)
+-   [Markup Validator](https://validator.w3.org/nu/) - [HTML Testing Results](https://github.com/zackgithuboriginal/FreeWork-milestone-project-1/blob/master/assets/images/html-validation.png)
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [CSS Testing Results](https://github.com/zackgithuboriginal/FreeWork-milestone-project-1/blob/master/assets/images/css-validation.png)
 
 ### Testing User Stories from User Experience (UX) Section
 
