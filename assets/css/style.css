@@ -354,7 +354,8 @@ p.space-description-right {
 
 .space img {
   max-width: 80vw;
-  height: auto;
+  width: auto;
+  max-height: 50rem;
 }
 
 .spaces-link {
