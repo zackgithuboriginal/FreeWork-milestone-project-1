@@ -139,7 +139,7 @@ The website is designed using media queries and Bootstrap's grid utility to have
  
  ### Testing
 
-I tested the website thoroughly, throughout development I would ensure that it looked and behaved as designed and laid out in the wireframes. The website was tested at multiple scales, through desktop and mobile devices.
+I tested the website thoroughly, throughout development I would ensure that it looked and behaved as designed and laid out in the wireframes. The website was tested at multiple scales, through desktop and mobile devices with no bugs or issues remaining in the deployed version.
 The website was viewed and tested through the following browsers and devices:
 
 - [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/)
@@ -152,7 +152,11 @@ The website was viewed and tested through the following browsers and devices:
 
 - A full range of sizes and devices using Chrome DevTools and [Responsive Viewer](https://chrome.google.com/webstore/detail/responsive-viewer/inmopeiepgfljkpkidclfgbgbmfcennb?hl=en)
 
-At the end of the project, the code was put through CSS and HTML validators to ensure there were no syntax errors.
+![Modal Issue](https://github.com/zackgithuboriginal/FreeWork-milestone-project-1/blob/master/assets/images/modal-issue.PNG)
+
+Throughout the project a number of issues were encountered that had to be solved through testing, research or by further reading the documentation. One such issue that I encountered and had to address was an issue where opening the modal would cause Bootstrap to apply a padding of 17px to the right side of the navbar. This was a very unusual issue and as is shown in the image above it was applied in-line to the element meaning I could not overrule it typically through css. After research the issue appears to have been caused by the jquery that Bootstrap uses in the functionality of the modal component. The only solution that I could come up with was to apply *padding-right:* *0* *!important;* to the element in my css stylesheet. Although using !important is not conventional as it can cause issues further down the line, this was the only workable solution to maintaining the layout of the website while using the modal.
+
+At the end of the project, the code was put through CSS and HTML validators to ensure there were no errors presented.
 -   [Markup Validator](https://validator.w3.org/nu/) - [HTML Testing Results](https://github.com/zackgithuboriginal/FreeWork-milestone-project-1/blob/master/assets/images/html-validation.png)
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [CSS Testing Results](https://github.com/zackgithuboriginal/FreeWork-milestone-project-1/blob/master/assets/images/css-validation.png)
 
@@ -190,9 +194,11 @@ At the end of the project, the code was put through CSS and HTML validators to e
 
 ## Deployment
 
-The project is deployed and live using GitHub pages. This is a very useful tool and it is was setup very simply. By going into the repository where the project is saved and then going to the settings menu by clicking the gear icon inside the repository. From inside the settings menu I navigated to the GitHub Pages section where I was presented with the option to choose the Branch and Root folder of the repository from which to source the project from. 
+The project is deployed and live using GitHub pages. This is a very useful tool and it is was setup very simply.
 
-After filling out these two options you select the "Save" button and it presents a URL on which the project is now hosted. 
+1. Go into the repository where the project is saved and then go to the settings menu by clicking the gear icon inside the repository. 
+2. From inside the settings menu navigated to the GitHub Pages section where you will be presented with the option to choose the Branch and Root folder of the repository from which you wish to source the project from. 
+3. After filling out these two options select the "Save" button and you will be presented with a URL on which the project is now hosted. 
 
 ## Credits
 
